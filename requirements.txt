@@ -1,0 +1,11 @@
+pip install os
+pip install numpy
+pip install opencv-python
+pip install pillow
+pip install matplotlib
+pip install tensorflow
+pip install keras
+pip install torch
+pip install torchinfo
+pip install torchvision
+
