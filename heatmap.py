@@ -1,3 +1,6 @@
+import tensorflow as tf
+import keras
+
 def grad_cam_heatmap(img, model, last_conv_layer, pred_idx=None):
   grad_model = keras.models.Model(
       model.input, [model.get_layer(last_conv_layer).output, model.output]
