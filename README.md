@@ -12,10 +12,10 @@ Grad-CAM works by computing gradients of a target class score with respect to th
 
 ## Terminology
 
-- ( $y^c$ ) — score (logit) for class ( $c$ )
-- ( $A^k$ ) — ( $k$ )-th feature map of the selected convolutional layer
-- ( $A_{ij}^k$ ) — activation at spatial location ( $(i, j)$ ) in feature map ( $k$ )
-- ( $Z$ ) — total number of spatial locations in a feature map
+-  $y^c$  — score (logit) for class ( $c$ )
+-  $A^k$  — ( $k$ )-th feature map of the selected convolutional layer
+-  $A_{ij}^k$  — activation at spatial location ( $(i, j)$ ) in feature map ( $k$ )
+-  $Z$  — total number of spatial locations in a feature map
 
 
 ---
@@ -83,3 +83,23 @@ Grad-CAM:
 - Does not require architectural modifications
 
 ---
+
+## Quick Start
+**Cloning of repository**
+```
+git clone https://github.com/kja8586/Grad-CAM.git
+```
+**Changing directory**
+```
+cd Grad-CAM
+```
+**Installing dependencies**
+Using requirements.txt
+``` 
+pip install -r requirements.txt
+```
+
+**Execute the code**
+```
+python main.py
+```
